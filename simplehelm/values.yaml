@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-image: manhnd148/bkacad:8a3d50e9
+image: manhnd1408/bkacad:8a3d50e9
 
 imagePullSecrets: []
 nameOverride: ""
