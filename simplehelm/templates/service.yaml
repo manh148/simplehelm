@@ -5,6 +5,7 @@ metadata:
   labels:
 {{ include "simplehelm.labels" . | indent 4 }}
 spec:
+  namespace: argocd
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
