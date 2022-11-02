@@ -3,6 +3,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
+  namespace: argocd
   name: {{ $fullName }}
   labels:
 {{ include "simplehelm.labels" . | indent 4 }}
